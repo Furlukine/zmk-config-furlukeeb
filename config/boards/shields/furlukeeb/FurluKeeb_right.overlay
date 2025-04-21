@@ -1,4 +1,4 @@
-#include "furluKeeb.dtsi"
+#include "FurluKeeb.dtsi"
 
 &default_transform {
     col-offset = <6>;

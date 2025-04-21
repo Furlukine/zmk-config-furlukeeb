@@ -1,5 +1,5 @@
 config SHIELD_FURLUKEEB_LEFT
-    def_bool $(shields_list_contains,furluKeeb_left)
+    def_bool $(shields_list_contains,FurluKeeb_left)
 
 config SHIELD_FURLUKEEB_RIGHT
-    def_bool $(shields_list_contains,furluKeeb_right)
+    def_bool $(shields_list_contains,FurluKeeb_right)
