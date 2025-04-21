@@ -13,7 +13,7 @@
                 &kp TAB     &kp A           &kp Z           &kp E           &kp R       &kp T                           &kp Y           &kp U        &kp I        &kp O        &kp P        &kp DEL
                 &kp LSHIFT  &kp Q           &kp S           &kp D           &kp F       &kp G                           &kp H           &kp J        &kp K        &kp L        &kp SEMI     &kp RALT
                 &kp LCTRL   &kp W           &kp X           &kp C           &kp V       &kp B                           &kp N           &kp FR_COMM  &kp FR_SCLN  &kp FR_COLN  &kp FR_EXLM  &kp ESC
-                            &kp LGUI                        &kp ENT         &kp TAB     &mo 1                           &mo 2           &kp SPACE    &kp SPACE                 &kp RALT
+                            &kp LGUI                        &kp ENTER       &kp TAB     &mo 1                           &mo 2           &kp SPACE    &kp SPACE                 &kp RALT
                 >;
         };
         lower_layer {
@@ -22,17 +22,16 @@
                 &kp TAB      &kp A          &kp Z           &kp E           &kp R       &bt BT_SEL 1                    &kp Y           &kp U        &kp I        &kp O        &kp P        &kp DEL
                 &kp LSHIFT   &kp Q          &kp S           &kp D           &kp F       &bt BT_SEL 2                    &kp H           &kp J        &kp K        &kp L        &kp SEMI     &kp RALT
                 &kp LCTRL    &kp W          &kp X           &kp C           &kp V       &bt BT_CLR                      &kp N           &kp FR_COMM  &kp FR_SCLN  &kp FR_COLN  &kp FR_EXLM  &kp ESC
-                             &kp LGUI                       &kp ENT         &kp TAB     &mo 1                           &mo 2           &kp SPACE    &kp SPACE                 &kp RALT
+                             &kp LGUI                       &kp ENTER       &bootloader &mo 1                           &mo 2           &kp SPACE    &kp SPACE                 &kp RALT
                 >;
         };
-
         raise_layer {
             bindings = <
                 &kp ESC      &kp FR_AMPR    &kp FR_EACU     &kp FR_DQUO     &kp FR_QUOT &bt BT_SEL 0                    &bt BT_SEL 0    &kp FR_EGRV  &kp FR_UNDS  &kp FR_CCED  &kp FR_AGRV  &bootloader                    
                 &kp TAB      &kp A          &kp Z           &kp E           &kp R       &bt BT_SEL 1                    &bt BT_SEL 1    &kp U        &kp I        &kp O        &kp P        &kp DEL
                 &kp LSHIFT   &kp Q          &kp S           &kp D           &kp F       &bt BT_SEL 2                    &bt BT_SEL 2    &kp J        &kp K        &kp L        &kp SEMI     &kp RALT
                 &kp LCTRL    &kp W          &kp X           &kp C           &kp V       &bt BT_CLR                      &kp N           &kp FR_COMM  &kp FR_SCLN  &kp FR_COLN  &kp FR_EXLM  &kp ESC
-                             &kp LGUI                       &kp ENT         &kp TAB     &mo 1                           &mo 2           &kp BT_CLR   &kp SPACE                 &kp RALT
+                             &kp LGUI                       &kp ENTER       &bootloader &mo 1                           &mo 2           &kp BT_CLR   &kp SPACE                 &kp RALT
                 >;
         };      
     };
