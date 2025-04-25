@@ -22,7 +22,7 @@
                 &trans      &kp F6          &kp F7          &kp F8      &kp F9              &kp F10                                            &none           &kp KP_N7        &kp KP_N8       &kp KP_N9           &kp KP_PLUS         &trans
                 &trans      &none           &none           &kp D       &kp F11             &kp F12                                            &none           &kp KP_N4        &kp KP_N5       &kp KP_N6           &kp KP_PLUS         &trans
                 &trans      &none           &none           &none       &kp LESS_THAN       &kp GREATER_THAN                                   &none           &kp KP_N1        &kp KP_N2       &kp KP_N3           &kp KP_ENTER        &trans
-                                            &kp LGUI                    &kp PSCRN           &kp ENTER       &none                &kp RSHIFT    &kp SPACE       &kp KP_N0                        &kp KP_DO   
+                                            &kp LGUI                    &kp PSCRN           &kp ENTER       &none                &kp RSHIFT    &kp SPACE       &kp KP_N0                        &kp KP_DOT   
         };              
         symbols {               
             bindings = <                
