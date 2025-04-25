@@ -13,7 +13,7 @@
                 &kp TAB     &kp Q           &kp W           &kp E           &kp R           &kp T                                              &kp Y           &kp U            &kp I           &kp O               &kp P               &kp DEL
                 &kp LSHIFT  &kp A           &kp S           &kp D           &kp F           &kp G                                              &kp H           &kp J            &kp K           &kp L               &kp SEMI            &kp ENTER
                 &kp LCTRL   &kp Z           &kp X           &kp C           &kp V           &kp B                                              &kp N           &kp FR_COMM      &kp FR_SCLN     &kp FR_COLN         &kp FR_EXLM         &kp ENTER
-                                            &kp LGUI                        &kp LSHIFT         &kp ENTER       &mo 1                &kp RSHIFT    &kp SPACE       &mo 2            &kp RALT        
+                                            &kp LGUI                        &kp LSHIFT      &kp ENTER       &mo 1                &kp RSHIFT    &kp SPACE       &mo 2            &kp RALT        
                 >;                      
         };                      
         num_pad {                       
@@ -21,14 +21,14 @@
                 &trans      &kp F1          &kp F2          &kp F3      &kp F4              &kp F5                                             &kp KP_NLCK     &none         &kp KP_SLASH    &kp KP_ASTERISK     &kp KP_MINUS           &trans                    
                 &trans      &kp F6          &kp F7          &kp F8      &kp F9              &kp F10                                            &none           &kp KP_N7        &kp KP_N8       &kp KP_N9           &kp KP_PLUS         &trans
                 &trans      &none           &none           &kp D       &kp F11             &kp F12                                            &none           &kp KP_N4        &kp KP_N5       &kp KP_N6           &kp KP_PLUS         &trans
-                &trans      &none           &none           &none       &LESS_THAN          &GREATER_THAN                                      &none           &kp KP_N1        &kp KP_N2       &kp KP_N3           &kp KP_ENTER        &trans
+                &trans      &none           &none           &none       &kp LESS_THAN       &kp GREATER_THAN                                   &none           &kp KP_N1        &kp KP_N2       &kp KP_N3           &kp KP_ENTER        &trans
                                             &kp LGUI                    &kp PSCRN           &kp ENTER       &none                &kp RSHIFT    &kp SPACE       &kp KP_N0                        &kp KP_DO   
         };              
         symbols {               
             bindings = <                
                 &trans      &FR_SUP2        &FR_HASH        &none           &kp FR_PERC     &kp FR_PIPE                                         &none          &none            &none           &kp SCROLLLOCK      &kp PAUSE_BREAK     &kp PSCRN                    
-                &trans      &kp FR_AT       &none           &kp FR_CIRC     &kp FR_DIAE     &kp SQT                                             &none          &none            &none           &none               &none               &none
-                &trans      &kp FR_AGRV     &kp FR_BSLS     &kp FR_SLSH     &kp FR_LPRN     &kp FR_RPRN                                         &kp PAGE_UP    &kp HOME         &kp UP          &kp END             &kp SEMI            &none
+                &trans      &kp FR_AT       &none           &kp FR_CIRC     &kp FR_DIAE     &kp FR_UGRV                                         &none          &none            &none           &none               &none               &none
+                &trans      &kp FR_AGRV     &kp FR_BSLS     &kp FR_SLSH     &kp FR_LPRN     &kp FR_RPRN                                         &kp PAGE_UP    &kp HOME         &kp UP          &kp END             &kp FR_UGRV         &none
                 &trans      &FR_LCBR        &FR_RCBR        &kp FR_CCED     &kp FR_LBRC     &kp FR_RBRC                                         &kp PAGE_DOWN  &kp LEFT         &kp DOWN        &kp RIGHT           &none               &none
                                             &kp LGUI                        &mo 1           &kp ENTER       &mo 1                &kp RSHIFT     &kp SPACE      &none                            &kp RALT
                 >;              
