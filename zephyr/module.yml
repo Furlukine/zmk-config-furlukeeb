@@ -1,0 +1,4 @@
+name: zmk-keyboard-furlukeeb
+build:
+  settings:
+    board_root: .

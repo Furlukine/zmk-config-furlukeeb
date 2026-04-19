@@ -1,0 +1,16 @@
+if SHIELD_furlukeeb_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "furlukeeb"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_furlukeeb_LEFT || SHIELD_furlukeeb_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
