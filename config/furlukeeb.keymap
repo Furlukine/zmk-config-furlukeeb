@@ -22,16 +22,16 @@
                 &trans      &kp F6          &kp F7          &kp F8      &kp F9              &kp F10                                            &none           &kp KP_N7        &kp KP_N8       &kp KP_N9           &kp KP_PLUS         &trans
                 &trans      &none           &none           &kp D       &kp F11             &kp F12                                            &kp EQUAL       &kp KP_N4        &kp KP_N5       &kp KP_N6           &kp KP_PLUS         &trans
                 &trans      &none           &none           &none       &kp NUBS            &kp LS(NUBS)                                       &kp EQUAL       &kp KP_N1        &kp KP_N2       &kp KP_N3           &kp KP_ENTER        &trans
-                                            &kp LGUI                    &trans              &kp ENTER       &none                &kp SPACE     &kp KP_N0       &kp KP_N0                        &kp KP_DOT   
+                                            &kp LGUI                    &trans              &kp ENTER       &none                &trans        &kp KP_N0       &kp KP_N0                        &kp KP_DOT   
                 >;
         };              
         symbols {               
             bindings = <                
-                &trans      &kp FR_SUP2     &kp FR_HASH     &none           &kp FR_PERC     &kp FR_PIPE                                         &none          &none            &none           &kp SCROLLLOCK      &kp PAUSE_BREAK     &kp PSCRN                    
+                &trans      &kp FR_SUP2     &kp FR_HASH     &FR_DLR         &kp FR_PERC     &kp FR_PIPE                                         &none          &none            &none           &kp SCROLLLOCK      &kp PAUSE_BREAK     &kp PSCRN                    
                 &trans      &kp FR_AT       &none           &kp FR_CIRC     &kp FR_DIAE     &kp FR_UGRV                                         &none          &none            &none           &none               &none               &none
                 &trans      &kp FR_AGRV     &kp FR_BSLS     &kp FR_SLSH     &kp FR_LPRN     &kp FR_RPRN                                         &kp PAGE_UP    &kp HOME         &kp UP          &kp END             &kp FR_UGRV         &none
                 &trans      &kp FR_LCBR     &kp FR_RCBR     &kp FR_CCED     &kp FR_LBRC     &kp FR_RBRC                                         &kp PAGE_DOWN  &kp LEFT         &kp DOWN        &kp RIGHT           &none               &none
-                                            &kp LGUI                        &mo 1           &kp ENTER       &mo 1                &kp RSHIFT     &kp SPACE      &none                            &kp RALT
+                                            &kp LGUI                        &mo 1           &kp ENTER       &mo 1                &none          &kp SPACE      &none                            &kp RALT
                 >;              
         };                      
         adjust {                
